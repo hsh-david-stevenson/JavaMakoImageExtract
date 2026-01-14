@@ -18,18 +18,18 @@ import java.nio.file.Paths;
 
 public class makoimageextract {
 
-    void main(String[] args) {
+    public static void main(String[] args) {
         // Get arguments
         Cli.Options params = null;
         try {
             params = Cli.parseArgs(args);
 
-            System.out.printf("Input:        %s\n", params.inputFile.toAbsolutePath());
-            System.out.printf("Output:       %s\n", params.outputFile.toAbsolutePath());
+            System.out.printf("       Input: %s\n", params.inputFile.toAbsolutePath());
+            System.out.printf("      Output: %s\n", params.outputFile.toAbsolutePath());
             System.out.printf("Password set? %s\n", params.pdfPassword != null ? "yes" : "no");
-            System.out.printf("Alpha:        %s\n", params.alpha ? "yes" : "no");
-            System.out.printf("Folder:       %s\n", params.createFolder ? "yes" : "no");
-            System.out.printf("Folder path:  %s\n", params.outputFolder);
+            System.out.printf("       Alpha: %s\n", params.alpha ? "yes" : "no");
+            System.out.printf("      Folder: %s\n", params.createFolder ? "yes" : "no");
+            System.out.printf(" Folder path: %s\n", params.outputFolder);
 
         } catch (IllegalArgumentException ex) {
             System.err.println(ex.getMessage());

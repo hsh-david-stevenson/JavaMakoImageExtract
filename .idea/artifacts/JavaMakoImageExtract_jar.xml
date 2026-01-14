@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JavaMakoImageExtract:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaMakoImageExtract_jar</output-path>
+    <root id="archive" name="JavaMakoImageExtract.jar">
+      <element id="module-output" name="JavaMakoImageExtract" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jawsmakoIF.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
