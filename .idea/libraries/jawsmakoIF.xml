@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jawsmakoIF">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jawsmakoIF.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
