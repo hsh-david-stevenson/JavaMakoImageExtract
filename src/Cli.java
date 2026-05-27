@@ -72,7 +72,7 @@ public final class Cli {
 
             int eq = token.indexOf('=');
             if (eq <= 0 || eq == token.length() - 1) {
-                throw usageError("Bad parameter format: '" + token + "'. Expected parameter=setting.");
+                throw usageError(STR."Bad parameter format: '\{token}'. Expected parameter=setting.");
             }
 
             String key = token.substring(0, eq).trim().toLowerCase(Locale.ROOT);
